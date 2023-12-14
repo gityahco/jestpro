@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "jest --coverage"
+    "test": "jest --coverage --detectOpenHandles",
+    "lint": "npx standard --fix"
   },
   "devDependencies": {
     "vite": "^4.4.5"
